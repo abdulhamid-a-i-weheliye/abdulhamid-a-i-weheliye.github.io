@@ -1,1 +1,0 @@
-# abdulhamid-a-i-weheliye.github.io
