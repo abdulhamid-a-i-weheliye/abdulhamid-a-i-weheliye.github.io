@@ -1,0 +1,26 @@
+#pic{
+	width: 260px;
+	margin: 0px auto;
+	border-radius: 5px;
+	margin: 7px auto;/*7px is for top, auto is for left & right*/
+	display: block;
+}
+html{
+	background-color: slategrey;
+}
+body{
+	border: 2px solid red;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: floralwhite;
+	color: royalblue;
+	font-family: Arial, Helvetica, sans-serif; /*sans-serif is a 
+	                                             professional font used 
+	                                             because of it's easy readability.*/
+	                                          
+}
+/*table caption{}...this is for editing the text in a table
+when you put borders around al the cells in a table, it will give a bouble border. you can eradicate this issue using
+border-collapse: collapse; property*/
+/*'list-style-type:none;' property removes bullets from a list*/
+/*text-decoration:none; to remove underline from hyperlinks*/
