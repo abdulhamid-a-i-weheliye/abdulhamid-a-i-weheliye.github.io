@@ -19,8 +19,8 @@ body {
 
 img{
     float: left;
-    margin: 5px 10px 10px 0px;
-    padding: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 0px;
     
 }
 
@@ -43,6 +43,7 @@ h2{
 h3{
     font-size: 18px;
     margin: 0px;
+    margin-left: -5px;
     padding:5px;
 }
 
