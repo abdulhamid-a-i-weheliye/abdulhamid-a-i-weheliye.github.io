@@ -28,7 +28,7 @@ img{
 h1{
     font-size: 28px;
     color: blue;
-    margin-top: 10px;
+    margin-top:0px;
     margin-bottom: 2px;
 }
 
@@ -86,7 +86,7 @@ li{
 
 /* footer style */
 footer{
-    border-top: 5px solid blue;
+    border-top: 4px solid blue;
     margin-top: 30px;
     margin-bottom: -10px;
     text-align: center;
