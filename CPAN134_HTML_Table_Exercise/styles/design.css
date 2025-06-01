@@ -37,7 +37,7 @@ tbody tr:nth-child(even){
     border: 1px solid black;
     padding: 20px;
     width: 460px;
-    box-shadow: 6px 6px 4px grey;
+    box-shadow: 6px 6px 6px grey;
     margin: 20px 50px;
 }
 
@@ -70,7 +70,7 @@ width: 580px;
     border: 1px solid black;
     padding: 20px;
     width: 590px;
-    box-shadow: 6px 6px 4px grey;
+    box-shadow: 6px 6px 6px grey;
     margin: 50px 50px;
 }
 
