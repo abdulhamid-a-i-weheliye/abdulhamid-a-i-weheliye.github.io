@@ -1,0 +1,60 @@
+/* HTML STYLING */
+html {
+    /* background-image: url("../images/bats.gif"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* H1 Styling */
+h1{
+    font-size: 25px;
+}
+/* H3 STYLING */
+h3{
+    font-size: 14px;
+}
+
+/* first Body H3 Styling to increase size of first letter */
+
+#FancyOpening:first-letter{
+    font-size: 40px;
+}
+
+/* BODY STYLING */
+
+body{
+    margin: 0 auto;
+
+}
+
+
+/* HEADER STYLING */
+
+header{
+    background-image: linear-gradient(45deg, white,orange,black);
+    border: 2px solid black;
+    height: 100px;
+
+    
+
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+    float:left;
+    margin: 7px;
+    margin-top: 20px;
+}
+
+header h1{
+    margin-bottom: 0px;
+    text-indent: 5px;
+}
+
+header h3{
+    margin-top: 5px;
+    text-indent: 5px;
+}
