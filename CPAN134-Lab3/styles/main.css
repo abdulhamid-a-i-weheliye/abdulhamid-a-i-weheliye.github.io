@@ -1,32 +1,35 @@
 /* HTML STYLING */
 html {
-    /* background-image: url("../images/bats.gif"); */
+    background-image: url("../images/bats.gif");
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* H1 Styling */
 h1{
-    font-size: 25px;
+    font-size: 35px;
 }
 /* H3 STYLING */
 h3{
-    font-size: 14px;
+    font-size: 23px;
 }
 
 /* first Body H3 Styling to increase size of first letter */
 
 #FancyOpening:first-letter{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* BODY STYLING */
 
 body{
-    margin: 0 auto;
-
+    width: 800px;
+    padding: 2px;
+    margin: 0px auto;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 6px 6px black;
 }
 
 
@@ -34,27 +37,98 @@ body{
 
 header{
     background-image: linear-gradient(45deg, white,orange,black);
-    border: 2px solid black;
-    height: 100px;
-
-    
-
+    border-bottom: 2px solid black;
+    height: 110px;
+    margin-top: -30px;
+    margin-left: -2px;
+    width: 804px;
 }
 
 header img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     float:left;
     margin: 7px;
     margin-top: 20px;
 }
 
 header h1{
-    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-bottom: -10px;
     text-indent: 5px;
+    font-style: italic;
+    /* color: orange; */
+    color: black;
+    text-shadow:3px 3px 2px black;
 }
 
 header h3{
-    margin-top: 5px;
+   
+    margin-top: 0px;
     text-indent: 5px;
 }
+
+/* END OF HEADER STYLING */
+
+
+/* Body Text Styling */
+body h3{
+    margin: 7px;
+    margin-top: 20px;
+    padding: 7px;
+
+}
+
+body p{
+    margin: 7px;
+    padding: 7px;
+}
+/* end of body text styling */
+
+
+/* Body list text styling */
+body li a{
+    font-size: 15px;
+    font-weight: 600;
+    color:orange;
+}
+
+/* Link styling */
+nav ul li a:visited{
+    color:orange
+}
+
+/* Link styling */
+nav ul li a:hover{
+    color:green
+
+}
+
+/* Link styling */
+nav ul li a:active {
+    color:green;
+}
+
+li{
+    padding:2px /* Increasing the spacing between list items */
+}
+
+
+footer{
+    background-image: linear-gradient(45deg,black,orange,white);
+    height: 60px;
+    width: 804px;
+    margin-left: -2px;
+    margin-bottom: -2px;
+    border-top: 2px solid black;
+}
+
+/* footer text styling */
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+/* END OF BODY STYLING */
