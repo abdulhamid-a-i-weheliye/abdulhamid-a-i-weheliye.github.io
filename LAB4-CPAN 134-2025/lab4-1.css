@@ -1,15 +1,15 @@
 /* LAB 4.1 UPDATE CHALLENGE*/
 
 body {
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 h1, h2 {
-	 text-align: left;
+	 text-align: center;
 }
 
 h2 {
-	color: black;
+	color: #ED1B2E;
 	margin-bottom: 0px;
 }
 
@@ -19,17 +19,18 @@ h3 {
 
 #mainPhoto img {
 	width: 100%;
-}
+}
+
 #dateTime{
-	font-weight: normal;
+	font-weight: bold;
 }
 
 #cost {
-	font-style: normal;
+	font-style: italic;
 }
 
 .inset {
-	margin-left: 0px;
+	margin-left: 100px;
 	font-family: serif;
 }
 
