@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -8,7 +8,7 @@
 
 
 html{
-    font-family:"lora" ;
+    font-family:lora ;
 
     background-color: yellow;
 
