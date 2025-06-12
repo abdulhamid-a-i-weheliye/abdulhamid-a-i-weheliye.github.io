@@ -1,3 +1,5 @@
+/* Author: Abdulhamid Weheliye */
+
 /* HTML Styling */
 html{background-color:rgb(253, 240, 213);
 }
@@ -76,6 +78,7 @@ h3{
 /* END OF HEADER AND FOOTER RELATED STYLING */
 
 /* MAIN BODY SECTIONS RELATED STYLING START */
+
 /* Image/Figure Styling */
 figure{
     float: right;
@@ -84,7 +87,7 @@ figure{
     background-color:aliceblue;
     margin-bottom: 0px;
 }
-
+/* figure caption styling */
 figcaption{
     font-size: 15px;
     padding-left: 4px;
@@ -92,22 +95,25 @@ figcaption{
     margin-top: -4px;
 }
 
-/* Identifier's Styling */
+/* ID's Styling */
 
 #intro{
     text-align:left;
     padding-left: 10px;
 }
+/* Future Plans Section Styling */
+#future{
+    text-align:left;
+    padding-left: 10px;
+}
 
-#future-interests{
+/* Interests Section Styling */
+#interests{
      text-align:left;
     padding-left: 10px;
 }
 
-#future-interests p{
-    text-align: center;
-}
-
+/* End of ID Styling */
 
 /* Hyperlink styling */
 main a{
