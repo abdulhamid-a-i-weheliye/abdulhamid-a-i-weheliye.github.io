@@ -19,10 +19,68 @@ html{background-color:rgb(253, 240, 213);
   font-style: normal;
 }
 
+/* body Styling */
+ body{
+    width: 850px;
+    border:7px double rgb(0, 48, 73);
+    margin: 0px auto;
+}
+
+/* main Styling */
 main{
     font-family: "Lora",serif;
 }
 
+/* Styling for header-footer Class */
 .header-footer{
     background-color:rgb(102, 155, 188);
+    text-align: center;
 }
+
+header{
+    position: relative;
+    height: 110px;
+    margin:-21px auto;
+    border-bottom: 2px solid rgb(0, 48, 73);
+}
+
+header h1{
+    position: relative;
+    top: 30px; 
+}
+
+header h2{
+    position: relative;
+    mar
+}
+
+footer{
+    height: 70px;
+    padding-top: 20px;
+    vertical-align: middle;
+    border-top: 2px solid rgb(0, 48, 73);
+}
+
+footer p{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* h3 styling */
+h3{
+    position: relative;
+    text-align: center;
+    text-decoration: underline 2px;
+}
+/* Image/Figure Styling */
+figure{
+    float: right;
+}
+
+/* Identifier's Styling */
+
+#intro{
+    text-align:left;
+    padding-left: 10px;
+}
+
