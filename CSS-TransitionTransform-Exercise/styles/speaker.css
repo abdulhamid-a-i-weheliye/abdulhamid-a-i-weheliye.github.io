@@ -153,11 +153,11 @@ footer p {
 /* Animation Bounce Styling */
 @keyframes bounce {
 	from {
-		padding:0px 30px
+		padding: 0px 30px;
 	}
 	to{
-		padding-left:10px;
-		padding-right: 50px;
+		padding-left: 50px;
+		padding-right: 10px;
 
 	}
 }
