@@ -41,6 +41,12 @@ header h3 {
 header img {
 	float: left;
 	padding: 0 30px;
+	/* using animation named bounce */
+	animation-name: bounce;
+	animation-duration: 0.5s;
+	animation-iteration-count: 8;
+	animation-timing-function: ease-in;
+	animation-direction: alternate;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -112,7 +118,7 @@ aside img {
 		border: 2px double black;
 		border-radius: 10px;
 		box-shadow: 3px 3px 0 0 #800000;
-		background-image: url("../images/right.jpg");
+		background-image: url("./images/right.jpg");
 		background-repeat: no-repeat;
 		background-position: 95% center;
 	}
@@ -127,6 +133,11 @@ aside img {
 	#nav_list ul li a.current {
 		color: #800000;
 	}
+
+	#nav_list ul li a:hover{
+		transform: rotateX(360deg);
+		transition: all 3s;
+	}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -137,4 +148,16 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+/* Animation Bounce Styling */
+@keyframes bounce {
+	from {
+		padding:0px 30px
+	}
+	to{
+		padding-left:10px;
+		padding-right: 50px;
+
+	}
 }
