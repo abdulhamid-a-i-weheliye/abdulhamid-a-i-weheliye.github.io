@@ -1,0 +1,139 @@
+/* Author: Abdulhamid Weheliye */
+
+/* HTML Styling */
+html{background-color:rgb(253, 240, 213);
+}
+
+
+
+/* Font families */
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* body Styling */
+ body{
+    width: 850px;
+    border:7px double rgb(0, 48, 73);
+    margin: 0px auto;
+}
+
+/* main Styling */
+main{
+    font-family: "Lora",serif;
+}
+
+/* Styling for header-footer Class */
+.header-footer{
+    background-color:rgb(102, 155, 188);
+    text-align: center;
+}
+
+/* HEADER AND FOOTER RELATED STYLING START */
+header{
+    position: relative;
+    height: 110px;
+    margin:-21px auto;
+    border-bottom: 2px solid rgb(0, 48, 73);
+}
+
+header h1{
+    position: relative;
+    top: 30px; 
+}
+
+header h2{
+    position: relative;
+    padding-top: 10px;
+}
+
+footer{
+    height: 70px;
+    padding-top: 20px;
+    vertical-align: middle;
+    border-top: 2px solid rgb(0, 48, 73);
+}
+
+footer p{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* h3 styling */
+h3{
+    position: relative;
+    text-align: center;
+    text-decoration: underline 2px;
+}
+/* END OF HEADER AND FOOTER RELATED STYLING */
+
+/* MAIN BODY SECTIONS RELATED STYLING START */
+
+/* Image/Figure Styling */
+figure{
+    float: right;
+    border: 2px solid rgb(6, 98, 148);
+    margin-right: 20px;
+    background-color:aliceblue;
+    margin-bottom: 0px;
+}
+/* figure caption styling */
+figcaption{
+    font-size: 15px;
+    padding-left: 4px;
+    border-top: 2px solid (6, 98, 148);
+    margin-top: -4px;
+}
+
+/* ID's Styling */
+
+#intro{
+    text-align:left;
+    padding-left: 10px;
+}
+/* Future Plans Section Styling */
+#future{
+    text-align:left;
+    padding-left: 10px;
+}
+
+/* Interests Section Styling */
+#interests{
+     text-align:left;
+    padding-left: 10px;
+}
+
+/* End of ID Styling */
+
+/* Hyperlink styling */
+main a{
+    color: rgb(0, 48, 73);
+    text-decoration: none;
+}
+
+main a:hover{
+    color: rgb(102, 155, 188);
+    text-decoration:underline;
+}
+
+main a:active{
+    color:rgb(193, 18, 31);
+}
+
+main a:visited{
+    color: rgb(120, 0, 0);
+}
+/* End of Hyperlink styling */
+
+/* END OF MAIN BODY SECTIONS RELATED STYLING */
+
