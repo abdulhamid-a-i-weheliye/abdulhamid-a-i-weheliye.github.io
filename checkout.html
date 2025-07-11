@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mustafa">
+  <title>Skyline Checkout</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    
+    .checkout-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      min-height: 400px;
+    }
+    
+    .order-summary {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .checkout-form {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .empty-cart-message {
+      color: #666;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    
+    .total-section {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      text-align: right;
+    }
+    
+    .checkout-btn {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="Header">
+    <div class="logo"><img src="./images/Skyline Logo.png" alt="Skyline Logo" width="140"></div>
+    <div class="storeName"><h1>SKYLINE TECHNOLOGY</h1></div>
+    <div class="search"><input type="text" placeholder="Search.."></div>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="DropDownButton">Products</a>
+            <div class="DropDownContent">
+              <a href="#">Computer Parts</a>
+              <a href="#">Computer Peripherals</a>
+              <a href="#">Display Devices</a>
+              <a href="#">Storage</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="DropDownButton">Deals</a>
+            <div class="DropDownContent">
+              <a href="#">Promotions</a>
+              <a href="#">Open Box Products</a>
+              <a href="#">Clearance</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="DropDownButton">Product Finders</a>
+            <div class="DropDownContent">
+              <a href="#">Cable Finder</a>
+              <a href="#">Router Finder</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="login-checkout">
+      <div class="login"><a href="./Signup.html"><button>Login</button></a></div>
+      <div class="checkout"><a href="#"><button>Checkout</button></a></div>
+    </div>
+  </header>
+
+  <!-- Checkout Content -->
+  <div class="checkout-container">
+    <div class="order-summary">
+      <h2>Shopping Cart</h2>
+      <div class="empty-cart-message">
+        Your cart is currently empty
+      </div>
+      <div class="total-section">
+        <h3>Total: $0.00</h3>
+      </div>
+    </div>
+    
+    <div class="checkout-form">
+      <h2>Checkout</h2>
+      <form>
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Robert" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="example@email.com" required>
+        </div>
+        <div class="form-group">
+          <label>Shipping Address</label>
+          <input type="text" placeholder="123 Toronto" required>
+        </div>
+        <div class="form-group">
+          <label>City</label>
+          <input type="text" placeholder="Toronto" required>
+        </div>
+        <div class="form-group">
+          <label>Postal Code</label>
+          <input type="text" placeholder="A1B 2C3" required>
+        </div>
+        <div class="form-group">
+          <label>Credit Card Number</label>
+          <input type="text" placeholder="1234 5678 9012 3456" required>
+        </div>
+        <button type="submit" class="checkout-btn">PLACE ORDER</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="emailprompt"><p>Sign up for Email Alerts:</p></div>
+    <div class="email"><input type="email" placeholder="enter your email here..."></div>
+    <div class="links">
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Product Finders</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="./index.html">Homepage</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p> &copy; 2025 Skyline Technology</p>
+    </div>
+    <div class="quicklinks">
+      <li><a href="#">Shop By Categories</a></li>
+      <li><a href="#">Shop By Brands</a></li>
+      <li><a href="./Signup.html">Signup</a></li>
+      <li><a href="#">Checkout</a></li>
+    </div>
+  </footer>
+</body>
+</html>
